@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World');
+  res.send('Simple Web Application v1.1');
 });
 
 app.listen(8081, function () {
